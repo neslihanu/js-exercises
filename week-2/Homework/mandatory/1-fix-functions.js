@@ -1,10 +1,10 @@
 // The below functions are syntactically correct but not outputting the right results.
 // Look at the tests and see how you can fix them.
 
-function mood() {
+function mood(mymood) {
   let isHappy = true;
 
-  if (isHappy) {
+  if (mymood === isHappy) {
     return "I am happy";
   } else {
     return "I am not happy";
@@ -15,7 +15,7 @@ function greaterThan10() {
   let num = 10;
   let isBigEnough;
 
-  if (isBigEnough) {
+  if (num === 10 || num > 10) {
     return "num is greater than or equal to 10";
   } else {
     return "num is not big enough";
